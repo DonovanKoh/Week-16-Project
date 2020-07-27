@@ -114,7 +114,7 @@ function timer() {
     }
 }
 
-function createTimer(seconds) {
+/*function createTimer(seconds) {
     intervalVar = setInterval(function () {
         makeWhite2(mazeWidth, 0, canvas.width - mazeWidth, canvas.height);
        
@@ -154,7 +154,8 @@ function createTimer(seconds) {
         context.fillText(minutes.toString() + ":" + secondsToShow, mazeWidth + 30, canvas.height / 2);
         seconds--;
     }, 1000);
-} 
+} */
+
 function makeWhite(x, y, w, h) {
     context.beginPath();
     context.rect(x, y, w, h);
